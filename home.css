@@ -1,0 +1,40 @@
+html{
+    color:white;
+}
+.container1{
+    background-color: rgb(228, 0, 228);
+    padding:20px 0px 20px 0px;
+}
+.container1 div{
+    display: flex;
+    align-items:flex-end;
+    list-style-type: none;
+    justify-content:right;
+}
+a{
+    margin-right: 50px;
+    color:white;
+    text-decoration: none;
+}
+.container2{
+    background-color: black;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+    padding:100px 0px 100px 0px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+a img{
+    width:100px;
+    height:100px;
+    border-radius: 0%;
+}
+ol{
+    display: flex;
+    flex-flow: column wrap;
+}
